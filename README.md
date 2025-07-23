@@ -37,8 +37,8 @@ Bu projeyle amacım, bir sigorta firmasının kurumsal web sitesi ihtiyaçların
 🎨 Bootstrap, HTML5, CSS3<br><br>
 
 Projede genel anlamda 2 bölüm bulunmaktadır.<br>
-Ana Sayfa: Burada kullanıcı Ana Sayfa, Oteller ve Otel Detayı sayfalarını görüntüleyebilir ve bu şekilde kendi uygun zamanına göre uygun otelleri bulabilir.<br>
-Admin Paneli: Burada Admin, Hakkında, Özellikler, Ekip Üyeleri gibi bölümler ile ilgili CRUD işlemlerini yapar. Hizmetler ve SSS bölümleri için de yapay zeka destekli bir sistem ile Hizmet resmi oluşturma ve Sıkça Sorulan Soru ve Cevap üertimi yapılabilir.
+Ana Sayfa: Burada kullanıcı Ana Sayfa'da LifeSure sigorta firması ile ilgili Hakkında, Özellikler ve Hizmetler gibi birçok alanın bilgilerini görüntülemektedir.<br>
+Admin Paneli: Burada Admin, Hakkında, Özellikler, Ekip Üyeleri gibi bölümler ile ilgili CRUD işlemlerini yapar. Hizmetler ve SSS bölümleri için de yapay zeka destekli bir sistem ile Hizmet resmi oluşturma ve Sıkça Sorulan Soru ve Cevap üretimi yapılabilir.
 
 ---
 
