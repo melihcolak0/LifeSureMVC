@@ -26,7 +26,7 @@ Bu projeyle amacım, bir sigorta firmasının kurumsal web sitesi ihtiyaçların
 
 ###  Kullandığım Teknolojiler:<br>
 🧠 ASP.NET Web App (.NET Framework 4.7.2 (MVC Mimarisi))<br>
-🗂️ Tek Katmanlı Dosya Yapısı - Presentation Layer
+🗂️ Tek Katmanlı Dosya Yapısı - Presentation Layer<br>
 🛢️ Entity Framework<br>
 🗄️ MS SQL Server<br>
 💾 JSON Parsing (Newtonsoft.Json)<br>
@@ -44,5 +44,74 @@ Admin Paneli: Burada Admin, Hakkında, Özellikler, Ekip Üyeleri gibi bölümle
 
 ### :triangular_flag_on_post: Ana Sayfa
 <div align="center">
-  <img src="https://github.com/melihcolak0/RapidAPIBooking/blob/842bc5860e9ff2219d18054a3b675a6860098bb8/ss/localhost_7176_Booking_Index.png" alt="image alt">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Default_Index%20(1).png" alt="image alt">
+</div>
+
+### :triangular_flag_on_post: Dil Desteği, Twitter ve Linkedin API
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Default_Index.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Default_Index%20(2).png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-22%20163532.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-22%20163930.png" alt="image alt">
+</div>
+
+### :triangular_flag_on_post: Admin Paneli
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_About_Index.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Feature_Index.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Feature_CreateFeature.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Feature_UpdateFeature_1.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Member_Index.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Slider_Index.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Testimonial_Index.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Contact_Index.png" alt="image alt">
+</div>
+
+### :triangular_flag_on_post: AI Destekli Admin Paneli Bölümleri
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Faq_Index%20(1).png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Faq_CreateFaq%20(13).png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Faq_CreateFaq%20(24).png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Faq_CreateFaq%20(26).png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Faq_CreateFaq%20(28).png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Service_Index.png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Service_CreateService%20(2).png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Service_CreateService%20(9).png" alt="image alt">
+</div>
+<div align="center">
+  <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Service_CreateService%20(11).png" alt="image alt">
 </div>
