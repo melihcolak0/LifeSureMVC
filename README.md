@@ -40,12 +40,16 @@ Projede genel anlamda 2 bölüm bulunmaktadır.<br>
 Ana Sayfa: Burada kullanıcı Ana Sayfa, Oteller ve Otel Detayı sayfalarını görüntüleyebilir ve bu şekilde kendi uygun zamanına göre uygun otelleri bulabilir.<br>
 Admin Paneli: Burada Admin, Hakkında, Özellikler, Ekip Üyeleri gibi bölümler ile ilgili CRUD işlemlerini yapar. Hizmetler ve SSS bölümleri için de yapay zeka destekli bir sistem ile Hizmet resmi oluşturma ve Sıkça Sorulan Soru ve Cevap üertimi yapılabilir.
 
+---
+
 ## :arrow_forward: Projeden Ekran Görüntüleri
 
 ### :triangular_flag_on_post: Ana Sayfa
 <div align="center">
   <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Default_Index%20(1).png" alt="image alt">
 </div>
+
+---
 
 ### :triangular_flag_on_post: Dil Desteği, Twitter ve Linkedin API
 <div align="center">
@@ -60,6 +64,8 @@ Admin Paneli: Burada Admin, Hakkında, Özellikler, Ekip Üyeleri gibi bölümle
 <div align="center">
   <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-07-22%20163930.png" alt="image alt">
 </div>
+
+---
 
 ### :triangular_flag_on_post: Admin Paneli
 <div align="center">
@@ -86,6 +92,8 @@ Admin Paneli: Burada Admin, Hakkında, Özellikler, Ekip Üyeleri gibi bölümle
 <div align="center">
   <img src="https://github.com/melihcolak0/LifeSureMVC/blob/0014dca4b043c2e06433f2f84f59481dacc9a202/ss/localhost_44303_Contact_Index.png" alt="image alt">
 </div>
+
+---
 
 ### :triangular_flag_on_post: AI Destekli Admin Paneli Bölümleri
 <div align="center">
