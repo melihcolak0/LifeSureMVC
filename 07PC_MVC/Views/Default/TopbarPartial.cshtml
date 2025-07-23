@@ -1,0 +1,262 @@
+﻿@*
+        <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
+        <div class="container">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <div class="border-end border-primary pe-3">
+                            <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>Konumumuz</a>
+                        </div>
+                        <div class="ps-3">
+                            <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>lifesureinsurance@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex justify-content-end">
+                        <div class="d-flex border-end border-primary pe-3">
+                            <a class="btn p-0 text-primary me-3" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn p-0 text-primary me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="dropdown ms-3">
+                            <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fas fa-globe-europe text-primary me-2"></i> Türkçe</small></a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item">Türkçe</a>
+                                <a href="#" class="dropdown-item">İngilizce</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+*@
+
+@model _07PC_MVC.Models.ViewModels.LinkedinViewModel
+
+<!-- Topbar Start -->
+<div class="container-fluid topbar px-0 px-lg-4 bg-light py-2 d-none d-lg-block">
+    <div class="container">
+        <div class="row gx-0 align-items-center">
+            <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <div class="border-end border-primary pe-3">
+                        <a href="#" class="text-muted small"><i class="fas fa-map-marker-alt text-primary me-2"></i>@Resources.Site.Location</a>
+                    </div>
+                    <div class="ps-3">
+                        <a href="mailto:example@gmail.com" class="text-muted small"><i class="fas fa-envelope text-primary me-2"></i>lifesureinsurance@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-flex justify-content-end">
+                    <div class="d-flex border-end border-primary pe-3">
+                        <!-- Twitter -->
+                        <div class="social-hover position-relative me-3">
+                            <a class="btn p-0 text-primary" href="#" id="twitterIcon"><i class="fab fa-twitter"></i></a>
+
+                            <!-- Kart -->
+                            <div class="hover-card position-absolute bg-white border rounded shadow p-3" id="twitterCard" style="display:none;">
+                                <!-- Ok Ucu -->
+                                <div class="hover-arrow"></div>
+
+                                <div class="company-card">
+                                    <div class="logo-container">
+                                        <img src="@Model.TwitterAvatarUrl" alt="@Model.TwitterName Logo" />
+                                    </div>
+                                    <div class="company-info">
+                                        <h3>@Model.TwitterName</h3>
+                                        <p class="description">
+                                            @(
+                        string.IsNullOrEmpty(Model.TwitterDescription) ? "" :
+                        (Model.TwitterDescription.Length > 200 ? Model.TwitterDescription.Substring(0, 200) + "..." : Model.TwitterDescription)
+                    )
+                                        </p>
+                                        <p><strong>Takipçi Sayısı:</strong> @Model.TwitterFollowersCount</p>
+                                        <p><strong>Takip Edilen:</strong> @Model.TwitterFriendsCount</p>
+                                        <p><strong>Medya Sayısı:</strong> @Model.TwitterMediaCount</p>
+                                        <p><strong>Profil:</strong> <a href="https://twitter.com/@Model.TwitterScreenName" target="_blank">@Model.TwitterScreenName</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LinkedIn -->
+                        <div class="social-hover position-relative">
+                            <a class="btn p-0 text-primary" href="#" id="linkedinIcon"><i class="fab fa-linkedin-in"></i></a>
+                            <div class="hover-card position-absolute bg-white border rounded shadow p-3" id="linkedinCard" style="display:none;">
+                                <!-- Ok Ucu -->
+                                <div class="hover-arrow"></div>
+
+                                <div class="company-card">
+                                    <div class="logo-container">
+                                        <img src="@Model.LogoUrl" alt="@Model.Name Logo" />
+                                    </div>
+                                    <div class="company-info">
+                                        <h3>@Model.Name</h3>
+                                        <p class="description">
+                                            @(
+            string.IsNullOrEmpty(Model.Description) ? "" :
+            (Model.Description.Length > 200 ? Model.Description.Substring(0, 200) + "..." : Model.Description)
+        )
+                                        </p>
+                                        <p><strong>Web Sitesi:</strong> <a href="@Model.Website" target="_blank">@Model.Website</a></p>
+                                        <p><strong>Endüstri:</strong> @(Model.Industries != null && Model.Industries.Any() ? Model.Industries[0] : "N/A")</p>
+                                        <p><strong>Kuruluş:</strong> @(Model.FoundedYear?.ToString() ?? "Unknown")</p>
+                                        <p><strong>Çalışan Sayısı:</strong> @Model.EmployeeCount</p>
+                                        <p><strong>Takipçi Sayısı:</strong> @Model.FollowerCount</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @*<div class="dropdown ms-3">
+                            <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fas fa-globe-europe text-primary me-2"></i> Türkçe</small></a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item">Türkçe</a>
+                                <a href="#" class="dropdown-item">İngilizce</a>
+                            </div>
+                        </div>*@
+                    <div class="dropdown ms-3">
+                        <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown">
+                            <small><i class="fas fa-globe-europe text-primary me-2"></i> @Resources.Site.Language</small>
+                        </a>
+                        <div class="dropdown-menu rounded">
+                            <a href="@Url.Action("ChangeLanguage", "Language", new { lang = "tr", returnUrl = Request.RawUrl })" class="dropdown-item">Türkçe</a>
+                            <a href="@Url.Action("ChangeLanguage", "Language", new { lang = "en", returnUrl = Request.RawUrl })" class="dropdown-item">English</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+<style>
+    .social-hover {
+        position: relative;
+    }
+
+    .hover-card {
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 620px; /* company-card max-width + padding/gap için biraz daha geniş */
+        z-index: 999;
+        transition: 0.2s ease;
+        text-align: left;
+        /* display: none; inline style ile kontrol ediliyor */
+    }
+
+    .hover-arrow {
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 10px solid white;
+    }
+
+    .company-card {
+        max-width: 600px; /* Daha geniş yaptım */
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #333;
+        box-sizing: border-box; /* padding dahil olsun genişliğe */
+        margin: 0 auto; /* Ortalamak için */
+    }
+
+    .logo-container {
+        flex-shrink: 0;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid #0077b5; /* LinkedIn mavisi */
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+    .company-info h3 {
+        margin: 0 0 8px 0;
+        font-size: 1.5rem;
+        color: #0077b5;
+    }
+
+    .company-info p {
+        margin: 4px 0;
+        font-size: 0.95rem;
+        line-height: 1.3;
+    }
+
+    .company-info a {
+        color: #0077b5;
+        text-decoration: none;
+    }
+
+        .company-info a:hover {
+            text-decoration: underline;
+        }
+
+    .description {
+        font-style: italic;
+        color: #555;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const twitterIcon = document.getElementById("twitterIcon");
+        const twitterCard = document.getElementById("twitterCard");
+
+        const linkedinIcon = document.getElementById("linkedinIcon");
+        const linkedinCard = document.getElementById("linkedinCard");
+
+        twitterIcon.addEventListener("click", function (e) {
+            e.preventDefault();
+            if (twitterCard.style.display === "block") {
+                twitterCard.style.display = "none";
+            } else {
+                twitterCard.style.display = "block";
+                linkedinCard.style.display = "none";
+            }
+        });
+
+        linkedinIcon.addEventListener("click", function (e) {
+            e.preventDefault();
+            if (linkedinCard.style.display === "block") {
+                linkedinCard.style.display = "none";
+            } else {
+                linkedinCard.style.display = "block";
+                twitterCard.style.display = "none";
+            }
+        });
+
+        document.addEventListener("click", function (e) {
+            if (!twitterIcon.contains(e.target) && !twitterCard.contains(e.target)) {
+                twitterCard.style.display = "none";
+            }
+            if (!linkedinIcon.contains(e.target) && !linkedinCard.contains(e.target)) {
+                linkedinCard.style.display = "none";
+            }
+        });
+    });
+</script>

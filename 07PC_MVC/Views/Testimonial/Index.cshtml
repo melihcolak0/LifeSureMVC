@@ -1,0 +1,61 @@
+﻿@model List<Testimonials>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="page-title">
+    <div class="row">
+        <div class="col-12 col-md-6 order-md-1 order-last">
+            <h3>Referanslar</h3>
+            <p class="text-subtitle text-muted">Referanslar bölümünün Listeleme, Oluşturma, Silme ve Güncelleme işlemlerini buradan gerçekleştirebilirsiniz.</p>
+        </div>
+        <div class="col-12 col-md-6 order-md-2 order-first">
+            <nav aria-label="breadcrumb" class='breadcrumb-header'>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Referanslar</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="row" id="basic-table">
+    <div class="col-12 col-md-12">
+        <div class="card">
+            <div class="card-content">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>ADI VE SOYADI</th>
+                                    <th>MESLEK</th>
+                                    <th>RESİM URL</th>                                    
+                                    <th>SİL</th>
+                                    <th>GÜNCELLE</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td class="text-bold-500">@item.TestimonialId</td>
+                                        <td class="text-bold-500">@item.NameSurname</td>                                        
+                                        <td class="text-bold-500">@item.Profession</td>
+                                        <td class="text-bold-500">@item.ImageUrl</td>
+                                        <td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialId" class="btn btn-danger">Sil</a></td>
+                                        <td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialId" class="btn btn-warning">Güncelle</a></td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                        <a href="/Testimonial/CreateTestimonial" class="btn btn-primary">Yeni Referans Ekle</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
