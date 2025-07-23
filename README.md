@@ -1,4 +1,4 @@
-# 🚀 LifeSure Yapay Zeka Destekli ve Admin Panelli Sigorta Sistemi
+# 🚀 LifeSure AI Destekli Sigorta Sitesi
 Bu repository, M&Y Yazılım Akademi bünyesinde yaptığım yedinci proje olan LifeSure Sigorata Sitesi projesini içermektedir. Bu eğitimde bana yol gösteren Murat Yücedağ'a çok teşekkür ederim.
 
 Bu projede, LifeSure adlı bir sigorta firmasına ait çok dilli (Türkçe ve İngilizce) kullanıcı dostu bir web sitesi ve bu siteye entegre çalışan kapsamlı ve yapay zeka destekli bir yönetim paneli (admin panel) geliştirdim. ASP.NET Web Application (NET Framework(4.7.2)) teknolojisiyle geliştirilen bu projede, kullanıcıların farklı sigorta türlerini (Hayat, Sağlık, Araç, Konut, Evcil Hayvan vb.) görüntüleyebileceği, hizmet detaylarını inceleyebileceği, modern tasarımlı, responsive bir kullanıcı arayüzü sunulmaktadır. Yapay Zeka tarafında RapidAPI ve Huggincg Face üzerinden sağlanan API'ler ile entegre çalışan bir sistem kurdum. Bu sisteme çekilen verileri de LifeSure sigoratcılık temasında anlamlı bir şekilde kullandım.
