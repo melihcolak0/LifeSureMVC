@@ -22,12 +22,12 @@ Admin panel üzerinden Hakkında, Özellikler, Ekip Üyeleri, SSS, Slider, Hizme
 (🖼️ Hizmetler için Yapay Zeka ile Görsel Oluşturma)<br>
 ➤ api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev<br><br>
 
-Bu projeyle amacım, bir sigorta firmasının kurumsal web sitesi ihtiyaçlarını karşılayan, kullanıcı dostu ve yönetilebilir bir sistem tasarlamak oldu. Kodlama standartlarına dikkat edilerek geliştirilen bu proje, portföyümde web teknolojilerine olan hakimiyetimi göstermek amacıyla yer almaktadır. Proje üzerinde gelişitirilebilir bir çok yer bulunabilir. Amacım kendimi geliştirmek ve deneyim kazanmaktır.<br>
+Bu projeyle amacım, bir sigorta firmasının kurumsal web sitesi ihtiyaçlarını karşılayan, kullanıcı dostu ve yönetilebilir bir sistem tasarlamak oldu. Kodlama standartlarına dikkat edilerek geliştirilen bu proje, portföyümde web teknolojilerine olan hakimiyetimi göstermek amacıyla yer almaktadır. Proje üzerinde gelişitirilebilir birçok yer bulunabilir. Amacım kendimi geliştirmek ve deneyim kazanmaktır.<br>
 
 ###  Kullandığım Teknolojiler:<br>
 🧠 ASP.NET Web App (.NET Framework 4.7.2 (MVC Mimarisi))<br>
 🗂️ Tek Katmanlı Dosya Yapısı - Presentation Layer<br>
-🛢️ Entity Framework<br>
+🛢️ Entity Framework (Db First)<br>
 🗄️ MS SQL Server<br>
 💾 JSON Parsing (Newtonsoft.Json)<br>
 🔗 RapidAPI (Farklı veri kaynaklarına API entegrasyonu)<br>
